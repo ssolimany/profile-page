@@ -25,13 +25,13 @@ button {
   padding-top: 24px;
   padding-left: 10%;
   padding-right: 10%;
-  padding-bottom: 40px;
+  padding-bottom: 56px;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 24px;
+  margin-bottom: 40px;
 }
 
 .links {
@@ -74,7 +74,11 @@ button {
 }
 
 .third-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #e5e7eb;
+  padding: 24px 20%;
 }
 
 .cards {
@@ -103,13 +107,6 @@ button {
   text-align: center;
 }
 
-.third-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 24px 20%;
-}
-
 .fourth-section {
   display: flex;
   justify-content: space-between;
@@ -133,10 +130,6 @@ button {
   color: #e5e7eb;
   margin-top: 0;
   margin-bottom: 0;
-}
-
-.call-to-action-button {
-
 }
 
 .footer {
@@ -179,12 +172,14 @@ button {
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
+  text-align: center;
 }
 
 .quote-text {
   font-size: 36px;
   color: #1f2937;
   align-self: center;
+  text-align: center;
 }
 
 .quote-author {
@@ -201,4 +196,8 @@ button {
 
 .white-border {
   border: 1px solid white;
+}
+
+.second-button {
+  white-space: nowrap;
 }
